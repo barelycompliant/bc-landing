@@ -89,3 +89,22 @@ p { margin: .5rem 0 1.2rem; }
     html { scroll-behavior: auto; }
     *, *::before, *::after { transition: none !important; }
 }
+
+/* Conversational FAQ pages: answers remain visible without JavaScript. */
+.faq-entry {
+    padding-block: 1.5rem;
+    border-bottom: 1px solid var(--jet-black);
+}
+.faq-entry h2 {
+    font-size: 1.3rem;
+    letter-spacing: -0.02em;
+    line-height: 1.4;
+    margin: 0 0 0.75rem;
+}
+.faq-entry p {
+    margin: 0;
+}
+.project-copy .arrow-link {
+    display: block;
+    margin-top: 0.75rem;
+}

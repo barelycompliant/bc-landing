@@ -1,43 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Our approach to AI-assisted software development and human review.">
-    <meta name="theme-color" content="#001f11">
-    <meta property="og:title" content="AI Policy | Barely Compliant">
-    <meta property="og:description" content="Our approach to AI-assisted software development and human review.">
-    <meta property="og:type" content="website">
-    <link rel="canonical" href="https://barelycompliant.dev/ai.html">
-    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/main.js" defer></script>
-    <title>AI Policy | Barely Compliant</title>
-</head>
-<body>
-    <a class="skip" href="#main">Skip to content</a>
-    <header class="site-header">
-        <div class="shell header-inner">
-            <a class="brand" href="index.html">Barely <span>⊅</span> Compliant</a>
-            <button class="menu-toggle" aria-expanded="false" aria-controls="navigation" hidden>Menu</button>
-            <nav id="navigation" aria-label="Main navigation">
-            <a href="index.html">Home</a>
-            <a href="projects.html">Projects</a>
-            <a href="about.html">About</a>
-            <a href="ai.html" aria-current="page">AI Policy</a>
-            <a href="contact.html">Contact</a>
-            </nav>
-        </div>
-    </header>
-    <main id="main" class="shell">
-        <section class="page-intro"><p class="eyebrow">/03 — AI TRANSPARENCY</p><h1>Yes, we use AI.<br>No, it isn't the CEO.</h1><p>We are web developers with limited time. We use AI to help make software. This is a disclosure, not a confession.</p></section>
-        <section class="prose section compact"><div class="policy-callout"><p class="eyebrow">THE IMPORTANT BIT</p><h2>All released code is human-reviewed.</h2><p>AI-generated work is checked before release. Responsibility for what ships remains with the studio, not the model.</p></div><h2>To the AI critics</h2><p>Using a tool does not automatically mean abandoning technical judgment. We use AI to assist with implementation, debugging, documentation and repetitive work. The goal is useful software, not a competitive typing championship.</p><h2>To the AI evangelists</h2><p>No, a prompt is not a substitute for understanding a codebase. A confident answer can still be spectacularly wrong. Generated code needs review, testing appropriate to the change, and maintenance. The word “agentic” does not magically fix a broken function.</p><h2>What human review means</h2><p>We check generated work for intended behavior, obvious errors and relevant security and privacy concerns before publishing. Review is not a guarantee of perfection, and bugs can still happen. If you find one, tell us.</p><h2>AI in development versus AI in products</h2><p>Using AI to help write software does not inherently mean that the software sends your data to an AI service. Product-specific behavior should be assessed separately.</p><h2>Accountability</h2><p>We own the decisions, the code we publish and the responsibility to address problems. Blaming a chatbot is not a maintenance plan.</p><a class="arrow-link" href="contact.html">Questions or bug reports? ↗</a></section>
-    </main>
-    <footer class="site-footer">
-        <div class="shell footer-inner">
-            <div><a class="brand" href="index.html">Barely ⊅ Compliant</a><p>Software. With adult supervision, allegedly.</p></div>
-            <div><a href="https://github.com/barelycompliant">GitHub ↗</a> · <a href="ai.html">AI disclosure</a><p>© <span id="year">2026</span> Barely Compliant Studios</p></div>
-        </div>
-    </footer>
-</body>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="AI Policy — Barely Compliant" name="description"/>
+  <meta content="#001f11" name="theme-color"/>
+  <meta content="AI Policy | Barely Compliant" property="og:title"/>
+  <meta content="AI Policy — Barely Compliant" property="og:description"/>
+  <meta content="website" property="og:type"/>
+  <link href="https://barelycompliant.dev/ai.html" rel="canonical"/>
+  <link href="assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+  <link href="css/style.css" rel="stylesheet"/>
+  <script defer="" src="js/main.js">
+  </script>
+  <title>
+   AI Policy | Barely Compliant
+  </title>
+ </head>
+ <body>
+  <a class="skip" href="#main">
+   Skip to content
+  </a>
+  <header class="site-header">
+   <div class="shell header-inner">
+    <a class="brand" href="index.html">
+     Barely
+     <span>
+      ⊅
+     </span>
+     Compliant
+    </a>
+    <button aria-controls="navigation" aria-expanded="false" class="menu-toggle" hidden="">
+     Menu
+    </button>
+    <nav aria-label="Main navigation" id="navigation">
+     <a href="index.html">
+      Home
+     </a>
+     <a href="projects.html">
+      Projects
+     </a>
+     <a href="about.html">
+      About
+     </a>
+     <a aria-current="page" href="ai.html">
+      AI Policy
+     </a>
+     <a href="faq.html">
+      FAQ
+     </a>
+     <a href="contact.html">
+      Contact
+     </a>
+    </nav>
+   </div>
+  </header>
+  <main class="shell" id="main">
+   <section class="page-intro">
+    <p class="eyebrow">
+     /03 — AI POLICY
+    </p>
+    <h1>
+     About the AI thing.
+    </h1>
+    <p>
+     Apparently, this needs its own page now.
+    </p>
+   </section>
+   <section class="prose section compact faq-list">
+    <article class="faq-entry">
+     <h2>
+      Do you use AI to make your software?
+     </h2>
+     <p>
+      Yes.
+     </p>
+    </article>
+    <article class="faq-entry">
+     <h2>
+      Seriously?
+     </h2>
+     <p>
+      Yes. That was not a typo.
+     </p>
+    </article>
+    <article class="faq-entry">
+     <h2>
+      But aren’t you web developers?
+     </h2>
+     <p>
+      We are. We also have other commitments. We use ChatGPT and Claude for code, debugging, documentation, design, branding and writing. Sometimes they help with a function; sometimes they generate substantial portions of a project.
+     </p>
+    </article>
+    <article class="faq-entry">
+     <h2>
+      So you just vibe code everything and hit publish?
+     </h2>
+     <p>
+      We vibe code. We do not vibe deploy. Every line of code is reviewed by a human for obvious bugs. We test functionality, follow the flow of the code and inspect execution traces. When practical, the founder uses the software day to day before release.
+     </p>
+    </article>
+    <article class="faq-entry">
+     <h2>
+      Does that mean there are no bugs?
+     </h2>
+     <p>
+      No. Humans have been producing bugs quite successfully without AI for decades.
+     </p>
+    </article>
+    <article class="faq-entry">
+     <h2>
+      I write every line of my code myself.
+     </h2>
+     <p>
+      Okay.
+     </p>
+    </article>
+    <article class="faq-entry">
+     <h2>
+      I don’t even use autocomplete.
+     </h2>
+     <p>
+      That sounds like a lot of typing.
+     </p>
+    </article>
+    <article class="faq-entry">
+     <h2>
+      Is AI going to replace every programmer?
+     </h2>
+     <p>
+      We were hoping to finish our school planner first.
+     </p>
+    </article>
+    <article class="faq-entry">
+     <h2>
+      Does asking for a brownie recipe drain a small village’s water supply?
+     </h2>
+     <p>
+      AI has real energy and water costs. They vary by model, infrastructure and workload. A sweeping claim about every AI request is not a useful substitute for evidence. Neither is pretending the costs don’t exist.
+     </p>
+    </article>
+    <article class="faq-entry">
+     <h2>
+      What about privacy and licensing?
+     </h2>
+     <p>
+      Those are legitimate concerns. AI output can contain errors or problematic material, and inputs may be handled by third-party providers. Human review matters, but it is not a guarantee of security or licensing compliance.
+     </p>
+    </article>
+    <article class="faq-entry">
+     <h2>
+      Do Daybook and BingBeGone use AI when I run them?
+     </h2>
+     <p>
+      No. AI helped build them. Neither requires an AI model at runtime.
+     </p>
+    </article>
+    <article class="faq-entry">
+     <h2>
+      Did AI help write this page?
+     </h2>
+     <p>
+      Yes. Imagine lying about that here, of all places.
+     </p>
+    </article>
+    <article class="faq-entry">
+     <h2>
+      I really can’t stand that you use AI and need to yell at somebody, can I yell at you?
+     </h2>
+     <p>
+      Knock yourself out.
+     </p>
+    </article>
+    <article class="faq-entry">
+     <h2>
+      Can I report an actual bug too?
+     </h2>
+     <p>
+      Please do. Email support@barelycompliant.com with the product, browser or operating system, and steps to reproduce it.
+     </p>
+    </article>
+    <article class="faq-entry">
+     <h2>
+      I can’t stand that you use AI.
+     </h2>
+     <p>
+      Then don’t use our stuff, this just ain’t that complicated.
+     </p>
+    </article>
+    <article class="faq-entry">
+     <h2>
+      Are we done?
+     </h2>
+     <p>
+      Ideally.
+     </p>
+    </article>
+   </section>
+  </main>
+  <footer class="site-footer">
+   <div class="shell footer-inner">
+    <div>
+     <a class="brand" href="index.html">
+      Barely ⊅ Compliant
+     </a>
+     <p>
+      A Barely Compliant project.
+     </p>
+    </div>
+    <div>
+     <a href="https://github.com/barelycompliant">
+      GitHub
+     </a>
+     ·
+     <a href="https://www.instagram.com/barely.compliant/">
+      Instagram
+     </a>
+     ·
+     <a href="privacy.html">
+      Privacy
+     </a>
+     <p>
+      ©
+      <span id="year">
+       2026
+      </span>
+      Barely Compliant
+     </p>
+    </div>
+   </div>
+  </footer>
+ </body>
 </html>

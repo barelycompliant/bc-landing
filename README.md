@@ -1,34 +1,14 @@
-# Barely ⊅ Compliant
+# Barely ⊅ Compliant — website v2
 
-Static studio website. No dependencies, build step, tracking scripts or external fonts.
+Static HTML, CSS and JavaScript. No build step or external runtime dependencies.
 
-## Files
+## Deployment
+Upload the contents of this directory to the root of the GitHub Pages repository. Enable Pages from the main branch. The CNAME specifies barelycompliant.dev. Configure DNS separately.
 
-- index.html — homepage
-- projects.html — project directory
-- about.html — studio and founder
-- ai.html — AI policy
-- contact.html — contact options
-- 404.html — error page
-- css/style.css — shared styles and brand variables
-- js/main.js — responsive navigation and footer year
-- assets/favicon.svg — favicon
-- CNAME and .nojekyll — GitHub Pages configuration
+## Pages
+Home, Projects, About, AI Policy, FAQ, Contact, Privacy and custom 404.
 
-## Local preview
+## Maintenance
+Shared styles are in css/style.css; navigation and footer behavior are in js/main.js. Edit the static navigation and footer on each page when adding pages. Product links use the existing subdomains and GitHub organization. Confirm exact repository URLs and licenses before adding specific license names. The contact address intentionally uses .com, while the site uses .dev.
 
-Run `python -m http.server 8000` from this directory and open http://localhost:8000.
-
-## Deploy
-
-Copy the contents of this directory to the root of the GitHub repository. In Settings > Pages, choose Deploy from a branch, main, / (root). Configure the custom domain barelycompliant.dev and its DNS records according to GitHub Pages instructions. Enable HTTPS when available.
-
-## Before publishing
-
-- Confirm the project URLs and GitHub organization link.
-- Replace the email section on contact.html with a verified studio email address when available. No email address was supplied, so none is fabricated.
-- Confirm the founder name and AI policy reflect actual practices.
-- Project illustrations are stylized CSS mockups, not actual screenshots.
-- Review on your target browsers and devices. No live deployment or external link verification was performed.
-
-All six brand colors are defined in :root in css/style.css. Edit the shared header and footer in each HTML page if navigation changes. The site works without JavaScript; the navigation remains visible in that case.
+No analytics or tracking scripts are included. Review hosting-provider privacy practices separately. Review all public copy and test in browsers before publishing.
